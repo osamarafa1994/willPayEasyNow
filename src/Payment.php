@@ -2,7 +2,11 @@
 
 namespace OArafa\WillPayEasyNow;
 
-class Payment
+use Composer\Plugin\PluginInterface;
+use Composer\Composer;
+use Composer\IO\IOInterface;
+
+class Payment implements PluginInterface
 {
 	protected $availableGateways = ['paypal', 'stripe', 'bank'];
 
@@ -25,6 +29,21 @@ class Payment
             default:
                 throw new \InvalidArgumentException('Unsupported payment gateway.');
         }
+    }
+	
+	public function activate(Composer $composer, IOInterface $io)
+    {
+        // Plugin activation logic
+    }
+
+    public function deactivate(Composer $composer, IOInterface $io)
+    {
+        // Plugin deactivation logic
+    }
+
+    public function uninstall(Composer $composer, IOInterface $io)
+    {
+        // Plugin uninstall logic
     }
 
 }
