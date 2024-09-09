@@ -2,7 +2,7 @@
     "name": "o-arafa/will-pay-easy-now",
     "description": "will Pay Easy Now",
     "type": "composer-plugin",
-    "license": "free",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "OArafa\\WillPayEasyNow\\": "src/"
