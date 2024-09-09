@@ -21,6 +21,6 @@
     },
     "type": "composer-plugin",
     "extra": {
-        "class": "OArafa\\WillPayEasyNow\\Payment"
+        "class": "OArafa\\WillPayEasyNow\\src\\Payment"
     }
 }
