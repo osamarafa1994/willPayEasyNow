@@ -13,6 +13,14 @@
             "name": "Osama Maher Arafa"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {}
+    "minimum-stability": "stable",
+    
+    "require": {
+        "php": "^7.4|^8.0",
+        "composer-plugin-api": "^2.0"
+    },
+    "type": "composer-plugin",
+    "extra": {
+        "class": "OArafa\\WillPayEasyNow\\PaymentPlugin"
+    }
 }
