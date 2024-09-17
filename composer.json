@@ -1,6 +1,6 @@
 {
     "name": "o-arafa/will-pay-easy-now",
-    "description": "will Pay Easy Now",
+    "description": "Will Pay Easy Now",
     "type": "composer-plugin",
     "license": "MIT",
     "autoload": {
@@ -19,7 +19,6 @@
         "php": "^7.4|^8.0",
         "composer-plugin-api": "^2.0"
     },
-    "type": "composer-plugin",
     "extra": {
         "class": "OArafa\\WillPayEasyNow\\Payment"
     }
